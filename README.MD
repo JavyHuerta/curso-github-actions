@@ -1,9 +1,12 @@
-# Clase 1 - Introducción
+# GitHub actions 
+Practicas del bootcamp de Github Actions en Código Facilito
+
+## Clase 1 - Introducción
 
 GitHub actions es una herramienta de GitHub que permite automatizar tareas relacionadas en nuestro repositorios.
 
 
-## Conceptos claves.
+### Conceptos claves.
 
 - Workflows
     - Conjunto de procesos automatizados en formato YAML en .github/workflows 
@@ -19,6 +22,13 @@ GitHub actions es una herramienta de GitHub que permite automatizar tareas relac
     - Se ejecutan secuencialmente en el mismo runner.
 - Runners **runs-on**
     - Entornos (Máquinas virtuales) donde se ejecutan los jobs.
+
+
+## Clase 2 - YAML y Workflows
+
+Los **Jobs** se ejecutan de forma paralela por lo que si necesitamos hacerlo de forma secuencial podemos usar **needs** que acepta una lista de
+nombre de jobs.
+
 
 
 
