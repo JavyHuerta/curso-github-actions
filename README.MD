@@ -29,7 +29,10 @@ GitHub actions es una herramienta de GitHub que permite automatizar tareas relac
 Los **Jobs** se ejecutan de forma paralela por lo que si necesitamos hacerlo de forma secuencial podemos usar **needs** que acepta una lista de
 nombre de jobs.
 
+### Contexto
+Los contextos son una manera de acceder a información acerca de las ejecuciones de flujo de trabajo, variable, entornos del ejecutor, trabajos y pasos. Cada contexto es un objeto que contiene propiedades, que pueden ser cadenas u otros objetos
+- [Revisar](https://docs.github.com/es/enterprise-cloud@latest/actions/writing-workflows/choosing-what-your-workflow-does/accessing-contextual-information-about-workflow-runs)
 
-
+Para agregar indicar si se ejecuta un job se puede usar la directiva **if** y apoyarnos del contexto
 
 
